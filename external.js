@@ -11,8 +11,8 @@ function beginGame(){
 }
 
 function getComputerChoice (max){
-    let ranNum = 0;
-    //let ranNum = Math.floor(Math.random() * max);
+    //let ranNum = 0;
+    let ranNum = Math.floor(Math.random() * max);
     if (ranNum === 0){
         return "rock";
     }
